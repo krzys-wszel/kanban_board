@@ -1,0 +1,32 @@
+.tasks {
+    padding: 1em;
+
+    .task {
+        margin: 0.75em;
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 1px 1px 1px lightgrey;
+        padding: 0.75em;
+        display: flex;
+        flex-direction: column;
+
+        .task-title {
+            margin-bottom: 10px;
+        }
+    }
+
+    .general {
+        border-left: 2px solid blue;
+        border-right: 2px solid blue;
+    }
+
+    .feature {
+        border-left: 2px solid #2ecc40;
+        border-right: 2px solid #2ecc40;
+    }
+
+    .bug {
+        border-left: 2px solid red;
+        border-right: 2px solid red;
+    }
+}

@@ -1,0 +1,33 @@
+.create-board {
+    width: 40%;
+
+    .container > * {
+        margin-top: 1em;
+    }
+
+    .container {
+        margin-left: 1em;
+
+        input {
+            max-width: 300px;
+            margin-right: 10px;
+        }
+
+        label {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            width: 150px;
+            text-align: right;
+            float: left;
+        }
+
+        button {
+            max-width: 100px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

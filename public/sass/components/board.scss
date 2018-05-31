@@ -1,0 +1,36 @@
+.board {
+    .task-modal-open {
+        padding: 0.6em;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(244, 245, 247);
+        color: rgb(71, 71, 71);
+        font-size: 1em;
+    }
+
+    .task-modal-open:focus {
+        outline: none;
+    }
+
+    .task-modal-open:hover {
+        background-color: rgb(224, 222, 222);
+    }
+
+    .lane-list {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+
+        .lane {
+            width: 100%;
+            background-color: rgb(244, 245, 247);
+            margin: 0.75em;
+            border-radius: 5px;
+        }
+
+        .lane-header {
+            color: grey;
+            padding: 0.5em 0 0 0.5em;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    /* Credit to Tyler Mcginnis for the font selection */
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.routes-container {
+    margin: 20px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.blue-button {
+    background-color: blue;
+    margin-right: 0.4em;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: white;
+}
+
+.blue-button:hover {
+    background-color: rgb(87, 132, 255);
+}
